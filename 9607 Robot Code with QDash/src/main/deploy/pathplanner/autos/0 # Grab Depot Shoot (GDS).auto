@@ -1,0 +1,55 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Immediate Depot"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.1
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake1"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 4.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Depot Shoot"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 2.25
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shooters"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
